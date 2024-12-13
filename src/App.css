@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdeedc;
+}
+
+.app {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff8f0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+img{
+  width: 250px;
+  height: 150px;
+  margin-left: 35%;
+  margin-top: 0;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #218838;
+}
+
+.search-filter-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-filter-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-filter-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tasks-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.task {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+}
+
+.task input,
+.task textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task textarea {
+  resize: none;
+}
+
+.task select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.task select.status-planifie {
+  background-color: #f0f8ff;
+  color: #000080;
+}
+
+.task select.status-en-cours {
+  background-color: #fffacd;
+  color: #ff8c00;
+}
+
+.task select.status-termine {
+  background-color: #98fb98;
+  color: #006400;
+}
+
+.task button {
+  padding: 8px 12px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task .delete-btn {
+  background-color: #c82333;
+  width: 50%;
+}
+
+.task .modify-btn {
+  background-color:darkorange;
+  margin-right: 20px;
+}
+
+.tasks-container .save-btn{
+  background-color: brown;
+  width: 45%;
+  margin-right: 10%;
+}
+
+.tasks-container .cancel-btn{
+  background-color: #ccc;
+  color: black;
+  width: 45%;
+}
+button:hover{
+  opacity: 0.8;
+}
